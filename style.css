@@ -1,0 +1,116 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+main{
+    background-color: #EEE;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+#title{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight:900;
+}
+
+h3{
+    display: block;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#first-p{
+    text-align: center;
+    font-size: 20px;
+    margin-top:-30px;
+}
+
+figure{
+    display: block;
+    max-width:90%;
+    margin:0 auto;
+    padding:20px 50px
+}
+
+figcaption{
+    display: block;
+    text-align: center;
+    margin: 18px auto;
+    width: 800px;
+}
+
+@media(max-width:1000px){
+    figcaption{
+        width: 75%;
+    }
+}
+
+#image{
+    width: 1000px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media(max-width:1150px){
+    #image{
+        width: 100%;
+    }
+}
+
+section{
+    text-align: center;
+    max-width:600px;
+    margin: auto;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+strong{
+    text-decoration:underline;
+}
+
+li{
+    margin-bottom:15px;
+}
+
+.quote{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.quote-p{
+    text-indent: 10px;
+    width: auto;
+}
+
+@media(max-width:800px){
+    .quote{
+        width: 80%;
+    }
+}
+
+#wikipedia{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tribute-link{
+    color: rgb(116, 125, 170);
+}
+
